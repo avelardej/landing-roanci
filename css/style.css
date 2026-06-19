@@ -7,6 +7,59 @@
     --text: #334155;
 }
 
+.appointment-section {
+    background:
+        linear-gradient(rgba(15,23,42,.92), rgba(15,23,42,.92)),
+        url('https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.appointment-form {
+    background: rgba(255,255,255,.96);
+    padding: 38px;
+    border-radius: 24px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.25);
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    outline: none;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus,
+.appointment-form textarea:focus {
+    border-color: var(--yellow);
+    box-shadow: 0 0 0 4px rgba(251,191,36,.18);
+}
+
+.appointment-form button {
+    width: 100%;
+    background: var(--green);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 14px;
+    font-weight: 800;
+    transition: .3s;
+}
+
+.appointment-form button:hover {
+    background: #1ebe5d;
+    transform: translateY(-2px);
+}
+
+.appointment-note {
+    text-align: center;
+    color: #e5e7eb;
+    margin-top: 18px;
+}
 
 .back-to-top {
     position: fixed;
